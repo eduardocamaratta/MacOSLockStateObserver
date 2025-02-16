@@ -1,0 +1,22 @@
+<!-- location: ~/Library/LaunchAgents/com.eduardocamaratta.lockstateserver.plist -->
+<!--- launchctl load ~/Library/LaunchAgents/com.eduardocamaratta.lockstateserver.plist -->
+<!--- launchctl start com.eduardocamaratta.lockstateserver -->
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key>
+    <string>com.eduardocamaratta.lockstateserver</string>
+    <key>Program</key>
+    <string>/Users/v4gy1m7/.nvm/versions/node/v22.11.0/bin/node</string>
+    <key>RunAtLoad</key>
+    <true/>
+    <key>KeepAlive</key>
+    <true/>
+    <key>ProgramArguments</key>
+    <array>
+    <string>/Users/v4gy1m7/Library/EduardoCamaratta/lockstateserver.js</string>
+    <string>/Users/v4gy1m7/Documents/.lockStateObserver/log.txt</string>
+    </array>
+</dict>
+</plist>
